@@ -7,7 +7,6 @@
   "license": "MIT",
   "scripts": {
     "start": "npx pm2 start ecosystem.config.js",
-    "start:dev": "npm run build && npm run start && npm run stop",
     "stop": "npx pm2 stop all && npx pm2 delete all",
     "monit": "npx pm2 monit",
     "prod": "NODE_ENV=prod node dist/index.js"
