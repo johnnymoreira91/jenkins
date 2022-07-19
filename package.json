@@ -1,0 +1,11 @@
+{
+  "name": "testeGitHub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:johnnymoreira91/jenkins.git",
+  "author": "Johnny Moreira <jmoreira@engebras.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
