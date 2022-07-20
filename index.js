@@ -16,6 +16,13 @@ app.get('/about', (req, res) => {
     })
 })
 
+app.get('/teste', (req, res) => {
+    res.status(200).json({
+        message: 'teste',
+        up: true
+    })
+})
+
 app.listen(3001, () => {
     console.log('server running on port 3001')
 })
